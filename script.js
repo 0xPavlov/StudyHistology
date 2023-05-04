@@ -28,7 +28,6 @@ randomizeUrls();
 
 function openNewTab() {
   if (idx == urls.length - 1) {
-    idx = 0;
     randomizeUrls();
   } else {
     idx++;
@@ -40,6 +39,7 @@ function openNewTab() {
 }
 
 function randomizeUrls() {
+  idx = 0;
   urls.sort(function () {
     return 0.5 - Math.random();
   });
