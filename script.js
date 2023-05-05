@@ -111,5 +111,5 @@ function randomizeUrls() {
 }
 
 function showSolution() {
-  document.querySelector("h1").innerHTML = urls[idx][1];
+  document.querySelector("h2").innerHTML = urls[idx][1];
 }

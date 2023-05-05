@@ -19,13 +19,13 @@ button {
   height: 100vh;
 }
 
-.lolzbutton {
+.duolingo_button {
   background-color: #33ccff;
   box-shadow: 0 5px 0 #0099cc;
   margin-top: 20px;
 }
 
-.lolzbutton:active {
+.duolingo_button:active {
   box-shadow: none;
   transform: translateY(5px);
 }
