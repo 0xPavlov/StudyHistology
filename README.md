@@ -1,3 +1,3 @@
 # Study Histology
 
-AAAAAAAAAAAAA THE SUFFERING
+A small Web-Application to make studying histology easier
